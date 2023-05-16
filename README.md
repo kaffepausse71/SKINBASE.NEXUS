@@ -1,2 +1,4 @@
 # SKINBASE.NEXUS
 The Biggest SKINBASE
+Guidos SKINBASE REPO NEXUS 
+für Kodi Version 19 + 20
