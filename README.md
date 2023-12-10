@@ -1,4 +1,5 @@
-# SKINBASE.NEXUS
-The Biggest SKINBASE
-Guidos SKINBASE REPO NEXUS 
-für Kodi Version 19 + 20
+# SKINBASE
+The Biggest Kodi SKINBASE of the World.
+Guidos SKINBASE REPOS für alle Kodi Versionen .
+
+
