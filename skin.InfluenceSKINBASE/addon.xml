@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="skin.InfluenceSKINBASE" version="2.0.25" name="Influence (SKINBASE)" provider-name="Ipefix,SKINBASE">
+	<requires>
+		<import addon="xbmc.gui" version="5.15.0"/>
+	</requires>
+	<extension point="xbmc.gui.skin" debugging="false">
+		<res width="1920" height="1440" aspect="4:3" default="false" folder="xml" />
+		<res width="1920" height="1280" aspect="3:2" default="false" folder="xml" />
+		<res width="1920" height="1200" aspect="16:10" default="false" folder="xml" />
+		<res width="2040" height="1080" aspect="17:9" default="false" folder="xml" />
+		<res width="1920" height="1080" aspect="16:9" default="true" folder="xml" />
+		<res width="2560" height="1080" aspect="21:9" default="false" folder="xml" />
+		<res width="2338" height="1080" aspect="19.5:9" default="false" folder="xml" />
+		<res width="2160" height="1080" aspect="18:9" default="false" folder="xml" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="af_ZA">Influence oortreksel deur Ipéfix</summary>
+		<summary lang="bg_BG">Influence облик от Ipéfix</summary>
+		<summary lang="ca_ES">Aparença Influence per Ipéfix</summary>
+		<summary lang="cs_CZ">Vzhled Influence od autora Ipéfix</summary>
+		<summary lang="da_DK">Influence skin af Ipéfix.</summary>
+		<summary lang="de_DE">Influence Skin Ipéfix</summary>
+		<summary lang="el_GR">Το κέλυφος Influence Ipéfix</summary>
+		<summary lang="en_GB">Influence skin by Ipéfix</summary>
+		<summary lang="en_NZ">Influence skin by Ipéfix</summary>
+		<summary lang="en_US">Influence skin by Ipéfix</summary>
+		<summary lang="es_AR">Skin Influence por Ipéfix</summary>
+		<summary lang="es_ES">Skin Influence, creado por Ipéfix.</summary>
+		<summary lang="es_MX">Influence skin por Ipéfix</summary>
+		<summary lang="et_EE">Influence rüü autorilt Ipéfix</summary>
+		<summary lang="eu_ES">Influence azala Ipéfix</summary>
+		<summary lang="fi_FI">Influence on Ipéfix</summary>
+		<summary lang="fr_CA">Habillage Influence par Ipéfix</summary>
+		<summary lang="fr_FR">Influence, un habillage par Ipéfix</summary>
+		<summary lang="gl_ES">Pel Influence por Ipéfix</summary>
+		<summary lang="he_IL">מעטפת Influence של Ipéfix</summary>
+		<summary lang="hr_HR">Influence presvlaka autora Ipéfix</summary>
+		<summary lang="hu_HU">Influence felszín. Készítette Ipéfix</summary>
+		<summary lang="is_IS">Influence-skinnið eftir Ipéfix</summary>
+		<summary lang="it_IT">Skin Influence da Ipéfix</summary>
+		<summary lang="ja_JP">Influenceスキン by Ipéfix</summary>
+		<summary lang="ko_KR">Ipéfix가 만든 Influence 스킨. </summary>
+		<summary lang="lt_LT">Influence teminė išvaizda, kurią sukūrė Ipéfix</summary>
+		<summary lang="lv_LV">Influence apvalks no Ipéfix</summary>
+		<summary lang="mk_MK">Influence skin by Ipéfix</summary>
+		<summary lang="ms_MY">Kulit Influence oleh Ipéfix dan rakan-rakan.</summary>
+		<summary lang="nb_NO">Esturay-drakt av Ipéfix</summary>
+		<summary lang="nl_NL">Influence skin door Ipéfix</summary>
+		<summary lang="pl_PL">Skóra Eustary autorstwa Ipéfix</summary>
+		<summary lang="pt_BR">Skin Influence por Ipéfix</summary>
+		<summary lang="pt_PT">Visual Influence de Ipéfix</summary>
+		<summary lang="ro_RO">Tema Influence de Ipéfix</summary>
+		<summary lang="ru_RU">Обложка Influence . Авторы: Ipéfix</summary>
+		<summary lang="sk_SK">Vzhľad Influence, vytvorili Ipéfix</summary>
+		<summary lang="sr_RS">Маска Influence аутора Ipéfix</summary>
+		<summary lang="sr_RS@latin">Maska Influence autora Ipéfix</summary>
+		<summary lang="sv_SE">Influence, ett Ipéfix</summary>
+		<summary lang="szl">Skōra Influence ôd Ipéfix</summary>
+		<summary lang="th_TH">สกิน Influence โดย Ipéfix</summary>
+		<summary lang="tr_TR">Influence dış görünümü. Ipéfix</summary>
+		<summary lang="uk_UA">Обкладинка Influence від Ipéfix</summary>
+		<summary lang="zh_CN">Ipéfix 开发的 Influence 皮肤。</summary>
+		<summary lang="zh_TW">Ipéfix製作的Influence佈景主題</summary>
+		<description lang="af_ZA">Influence: Dit poog om maklik te wees vir eerste keer Kodi gebruikers om te verstaan en te gebruik.</description>
+		<description lang="bg_BG">Influence: и по-новите версии. Целта е да се улеснят хората, които се сблъскват за първи път с Kodi.</description>
+		<description lang="ca_ES">Influence: Per als usuaris per primera vegada de Kodi, intenta ser fàcil d'entendre i d'utilitzar.</description>
+		<description lang="cs_CZ">Influence: Snaží se být jednoduše pochopitelný a použitelný pro nové uživatele Kodi.</description>
+		<description lang="da_DK">Influence: Det forenkler førstegangsbrugen af Kodi ved at gøre det nemmere at forstå og bruge.</description>
+		<description lang="de_DE">Influence: Ziel war es, einen einfach zu bedienenden Skin für neue Kodi-Benutzer zu entwickeln.</description>
+		<description lang="el_GR">Το Influence: Επιχειρεί να είναι προσιτό στους αρχάριους χρήστες του Kodi για να το κατανοήσουν και να το χρησιμοποιήσουν.</description>
+		<description lang="en_GB">Influence: It attempts to be easy for first time Kodi users to understand and use.</description>
+		<description lang="en_NZ">Influence: It attempts to be easy for first time Kodi users to understand and use.</description>
+		<description lang="en_US">Influence: It attempts to be easy for first time Kodi users to understand and use.</description>
+		<description lang="es_AR">Influence: Intenta ser fácil de entender y utilizar para los usuarios Kodi primerizos.</description>
+		<description lang="es_ES">Influence: Su objetivo es la facilidad de comprensión y uso para usuarios primerizos de Kodi.</description>
+		<description lang="es_MX">Influence: Intenta ser fácil para los usuarios de Kodi de primera vez para entender y usar.</description>
+		<description lang="eu_ES">Influence: Kodiren erabiltzaile hasiberrientzako erabilerraza eta ulerterraza izaten saiatzen da.</description>
+		<description lang="fi_FI">Influence: Se pyrkii olemaan helppo ymmärtää ja käyttää Kodin ensikäyttäjille. </description>
+		<description lang="fr_CA">Influence: Il s’efforce d’être facile à comprendre et à utiliser pour les utilisateurs débutants de Kodi.</description>
+		<description lang="fr_FR">Influence: Il est facile à comprendre et à utiliser pour les utilisateurs novices de Kodi.</description>
+		<description lang="gl_ES">Influence: Esta tenta ser doada de entender e usar polos usuarios recen chegados a Kodi.</description>
+		<description lang="he_IL">Influence:פשוטה לשימוש ולהכרה ראשונית על ידי משתמשים חדשים.</description>
+		<description lang="hr_HR">Influence: To je pokušaj da se novim korisnicima olakša prvo korištenje i kasnija upotreba Kodija.</description>
+		<description lang="hu_HU">Az Influence:  Megpróbál könnyen kezelhető és használható lenni, az újonc Kodi felhasználóknak is.</description>
+		<description lang="is_IS">Influence: Með því á að vera auðvelt fyrir fyrsta-skiptis Kodi-notendur að skilja og nota viðmótið.</description>
+		<description lang="it_IT">Influence: Cerca di essere facile da capire e usare per i nuovi utenti di Kodi.</description>
+		<description lang="ja_JP">Influence</description>
+		<description lang="ko_KR">Influence</description>
+		<description lang="lt_LT">Influence: Jos tikslas yra būti lengvai perprantama naujiems Kodi vartotojams.</description>
+		<description lang="ms_MY">Influence: Kulit yang mudah digunakan buat pengguna Kodi kali pertama untuk memahami dan menggunakannya.</description>
+		<description lang="nb_NO">Influence: Det tar mål av seg å være en enkel drakt for førstegangsbrukere av Kodi, slik at det er til å forstå og kan brukes.</description>
+		<description lang="nl_NL">Influence: Het tracht eenvoudig te begrijpen en te gebruiken te zijn voor beginnende Kodi-gebruikers.</description>
+		<description lang="pl_PL">Influence: Jest próbą łatwego wprowadzenia początkujących użytkowników w funkcje Kodi.</description>
+		<description lang="pt_BR">Influence:. Objetiva ser fácil para usuários que iniciam no Kodi pela primeira vez, facilitando aprendizagem de uso do mesmo.</description>
+		<description lang="pt_PT">O Influence: Tenta ser simples para os utilizadores menos experientes do Kodi compreenderem e usarem.</description>
+		<description lang="ro_RO">Influence:Încearcă să fie ușor de înțeles și folosit pentru utilizatorii care folosesc Kodi pentru prima dată.</description>
+		<description lang="ru_RU">Influence:&#10;Простая и понятная в использовании для новых пользователей Kodi.</description>
+		<description lang="sk_SK">Influence: Pokúša sa byť pre prvotných používateľov Kodi jednoduchým na pochopenie a používanie.</description>
+		<description lang="sr_RS">Influence: Покушава да буде једноставан за разумевање и коришћење новим корисницима Kodi-ја.</description>
+		<description lang="sr_RS@latin">Influence: Pokušava da bude jednostavan za razumevanje i korišćenje novim korisnicima Kodija.</description>
+		<description lang="sv_SE">Influence: Det är utformat för att vara lättförståeligt och användarvänligt för förstagångsanvändare av Kodi.</description>
+		<description lang="szl">Influence: Prōbuje być proste dlŏ używŏczōw, dlŏ kerych Kodi je nowe</description>
+		<description lang="th_TH">Influence</description>
+		<description lang="tr_TR">Influence: İlk kez Kodi kullananlar için anlaşılması ve kullanımı kolaydır.</description>
+		<description lang="uk_UA">Influence: Її основна ідея — простота використання для нових користувачів Kodi.</description>
+		<description lang="zh_CN">Influence</description>
+		<description lang="zh_TW">Influence</description>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE Version 3.0</license>
+		<forum>https://forum.mpdb.tv/</forum>
+		<source>https://github.com/ipefix-kodi/skin.influence</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
+			<screenshot>resources/screenshot-01.jpg</screenshot>
+			<screenshot>resources/screenshot-02.jpg</screenshot>
+			<screenshot>resources/screenshot-03.jpg</screenshot>
+			<screenshot>resources/screenshot-04.jpg</screenshot>
+			<screenshot>resources/screenshot-05.jpg</screenshot>
+		</assets>
+	</extension>
+</addon>
