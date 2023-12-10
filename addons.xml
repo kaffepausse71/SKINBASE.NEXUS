@@ -6436,7 +6436,7 @@ Support for New Favourites Browser window
 	</extension>
 </addon>
 
-<addon id="skin.embuary2k-matrix.teddyknuddel" version="19.0.1" name="Embuary (Matrix) (Teddyknuddel)" provider-name="sualfred, modified by Teddyknuddel">
+<addon id="skin.embuary2k-matrix.teddyknuddel" version="19.0.2" name="Embuary (Matrix) (Teddyknuddel)" provider-name="sualfred, modified by Teddyknuddel">
 	<requires>
 		<import addon="xbmc.gui" version="5.15.0"/>
 		<import addon="script.embuary.helper" version="1.3.6"/>
@@ -6469,7 +6469,7 @@ Support for New Favourites Browser window
 	</extension>
 </addon>
 
-<addon id="skin.embuary4k-matrix.teddyknuddel" version="19.0.1" name="Embuary 4k (Matrix) (Teddyknuddel)" provider-name="sualfred, modified by Teddyknuddel">
+<addon id="skin.embuary4k-matrix.teddyknuddel" version="19.0.2" name="Embuary 4k (Matrix) (Teddyknuddel)" provider-name="sualfred, modified by Teddyknuddel">
 	<requires>
 		<import addon="xbmc.gui" version="5.15.0"/>
 		<import addon="script.embuary.helper" version="1.3.6"/>
