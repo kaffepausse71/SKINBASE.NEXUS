@@ -36,7 +36,7 @@
 	</assets>
 </addon>
 
-<addon id="repository.axbmcuser" name="axbmcuser REPO" version="1.1.8" provider-name="axbmcuser">
+<addon id="repository.axbmcuser" name="axbmcuser REPO" version="1.2.1" provider-name="axbmcuser">
 	<requires>
 		<import addon="xbmc.addon" version="12.0.0"/>
 	</requires>
@@ -59,6 +59,12 @@
 			<datadir zip="true">https://github.com/axbmcuser/_repo/raw/master/matrix</datadir>
 			<hashes>false</hashes>
 		</dir>
+		<dir minversion="20.9.0">
+			<info compressed="false">https://github.com/axbmcuser/_repo/raw/master/omega/addons.xml</info>
+			<checksum>https://github.com/axbmcuser/_repo/raw/master/omega/addons.xml.md5</checksum>
+			<datadir zip="true">https://github.com/axbmcuser/_repo/raw/master/omega</datadir>
+			<hashes>false</hashes>
+		</dir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">This repository contains KODI addons from user "axbmcuser".</summary>
@@ -69,7 +75,17 @@
 		<website/>
 		<email/>
 		<source/>
-		<news>[B]1.1.8[/B] (2019-11-17)
+		<news>[B]1.2.1[/B] (2023-12-11)
+
+Added new repo tree for Kodi 21 (Omega)
+
+[B]1.2.0[/B] (2023-12-08)
+
+Version in sync for major rework of "A Confluence ZEITGEIST" 3.6.0 (Version numbers vary on other Kodi generations)
+
+- New addon icon
+
+[B]1.1.8[/B] (2019-11-17)
 - New repo icon (higher resolution)
 
 [B]1.1.7[/B] (2019-08-24)
@@ -96,7 +112,50 @@
 	</extension>
 </addon>
 
-<addon id="repository.jurialmunkey" name="jurialmunkey Alpha Repository" version="3.3" provider-name="jurialmunkey">
+<addon id="repository.emby.kodi" name="Kodi Emby Addons" version="1.0.7" provider-name="">
+	<requires>
+		<import addon="xbmc.addon" version="12.0.0"/>
+	</requires>
+	<extension point="xbmc.addon.repository" name="Kodi Emby Repository">
+		<dir>
+			<info compressed="false">https://embydata.com/downloads/addons/xbmb3c/multi-repo/repositories/addons.xml</info>
+			<checksum>https://embydata.com/downloads/addons/xbmb3c/multi-repo/repositories/addons.xml.md5</checksum>
+			<datadir zip="true">https://embydata.com/downloads/addons/xbmb3c/multi-repo/repositories/</datadir>
+		</dir>
+		<dir minversion="19.999.0">
+			<info compressed="false">https://embydata.com/downloads/addons/xbmb3c/multi-repo/nexus/addons.xml</info>
+			<checksum>https://embydata.com/downloads/addons/xbmb3c/multi-repo/nexus/addons.xml.md5</checksum>
+			<datadir zip="true">https://embydata.com/downloads/addons/xbmb3c/multi-repo/nexus/</datadir>
+		</dir>
+		<dir minversion="18.999.0">
+			<info compressed="false">https://embydata.com/downloads/addons/xbmb3c/multi-repo/matrix/addons.xml</info>
+			<checksum>https://embydata.com/downloads/addons/xbmb3c/multi-repo/matrix/addons.xml.md5</checksum>
+			<datadir zip="true">https://embydata.com/downloads/addons/xbmb3c/multi-repo/matrix/</datadir>
+		</dir>
+		<dir minversion="17.999.0">
+			<info compressed="false">https://embydata.com/downloads/addons/xbmb3c/multi-repo/leia/addons.xml</info>
+			<checksum>https://embydata.com/downloads/addons/xbmb3c/multi-repo/leia/addons.xml.md5</checksum>
+			<datadir zip="true">https://embydata.com/downloads/addons/xbmb3c/multi-repo/leia/</datadir>
+		</dir>
+		<dir minversion="16.999.0">
+			<info compressed="false">https://embydata.com/downloads/addons/xbmb3c/multi-repo/krypton/addons.xml</info>
+			<checksum>https://embydata.com/downloads/addons/xbmb3c/multi-repo/krypton/addons.xml.md5</checksum>
+			<datadir zip="true">https://embydata.com/downloads/addons/xbmb3c/multi-repo/krypton/</datadir>
+		</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Kodi Emby Addon Repository</summary>
+		<description>This repo contains add-ons for Emby related support</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
+		</assets>
+	</extension>
+</addon>
+
+<addon id="repository.jurialmunkey" name="jurialmunkey Alpha Repository" version="3.4" provider-name="jurialmunkey">
     <extension point="xbmc.addon.repository" name="jurialmunkey Alpha Repository">
         <dir>
             <info compressed="false">https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/repo/zips/addons.xml</info>
@@ -113,10 +172,15 @@
             <checksum>https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/matrix/zips/addons.xml.md5</checksum>
             <datadir zip="true">https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/matrix/zips/</datadir>
         </dir>
-        <dir minversion="19.9.1">
+        <dir minversion="19.9.1" maxversion="20.9.0">
             <info compressed="false">https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/nexusrepo/zips/addons.xml</info>
             <checksum>https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/nexusrepo/zips/addons.xml.md5</checksum>
             <datadir zip="true">https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/nexusrepo/zips/</datadir>
+        </dir>
+        <dir minversion="20.9.1">
+            <info compressed="false">https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/omega/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/omega/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/omega/zips/</datadir>
         </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
@@ -204,7 +268,7 @@
     </extension>
 </addon>
 
-<addon id="repository.lattsrepo" name="[COLOR red]Latts'[/COLOR] [COLOR white]KODI[/COLOR] [COLOR blue]Repo[/COLOR]" version="4.0.1" provider-name="Latts">
+<addon id="repository.lattsrepo" name="[COLOR red]Latts'[/COLOR] [COLOR white]KODI[/COLOR] [COLOR blue]Repo[/COLOR]" version="4.0.2" provider-name="Latts">
 	<requires>
 		<import addon="xbmc.addon" version="12.0.0"/>
 	</requires>
@@ -234,6 +298,11 @@
 			<checksum>https://holybid.com/kodi/lattsrepo/master/nexus/addons.xml.md5</checksum>
 			<datadir zip="true">https://holybid.com/kodi/lattsrepo/master/nexus/</datadir>
 		</dir>
+		<dir minversion="20.90.801" maxversion="21.9.0">
+			<info compressed="false">https://holybid.com/kodi/lattsrepo/master/omega/addons.xml</info>
+			<checksum>https://holybid.com/kodi/lattsrepo/master/omega/addons.xml.md5</checksum>
+			<datadir zip="true">https://holybid.com/kodi/lattsrepo/master/omega/</datadir>
+		</dir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">Latts' Kodi Repo</summary>
@@ -244,14 +313,14 @@
 			<fanart>resources/fanart.jpg</fanart>
 			<icon>resources/icon.png</icon>
 		</assets>
-		<news>[B][COLOR=FF2CD13B]v4.0.1[/COLOR][/B] - Release date January 16, 2022[CR]
+		<news>[B][COLOR=FF2CD13B]v4.0.2[/COLOR][/B] - Release date December 3, 2023[CR]
 [B][COLOR=FFFFA500]ADDITIONS[/COLOR][/B]
-• Nexus repo added.
+• Omega repo added.
 		</news>
 	</extension>
 </addon>
 
-<addon id="repository.skinbase.16" name="[COLOR orange]G[/COLOR]UIDO[COLOR orange]S[/COLOR] [COLOR orange]S[/COLOR]KINBAS[COLOR orange]E[/COLOR] Only Skins for 16" version="3.2.00" provider-name="[COLOR orange]GUIDO[/COLOR] | [COLOR skyblue]Kodiman[/COLOR] | [COLOR orange]HSK-DE[/COLOR]">
+<addon id="repository.skinbase.16" name="[COLOR orange]G[/COLOR]UIDO[COLOR orange]S[/COLOR] [COLOR orange]S[/COLOR]KINBAS[COLOR orange]E[/COLOR] Only Skins for 16" version="3.3.00" provider-name="[COLOR orange]Team SKINBASE[/COLOR]">
 	<extension point="xbmc.addon.repository" name="GUIDOS SKINBASE REPO">
 	<dir>
 		<info compressed="false">https://raw.githubusercontent.com/kaffepausse71/SKINBASE16/master/addons.xml</info>
@@ -276,7 +345,7 @@
 	</extension>
 </addon>
 
-<addon id="repository.skinbase.17" name="[COLOR orange]G[/COLOR]UIDO[COLOR orange]S[/COLOR] [COLOR orange]S[/COLOR]KINBAS[COLOR orange]E[/COLOR] Only Skins for 17" version="3.2.00" provider-name="[COLOR orange]GUIDO[/COLOR] | [COLOR skyblue]Kodiman[/COLOR] | [COLOR orange]HSK-DE[/COLOR]">
+<addon id="repository.skinbase.17" name="[COLOR orange]G[/COLOR]UIDO[COLOR orange]S[/COLOR] [COLOR orange]S[/COLOR]KINBAS[COLOR orange]E[/COLOR] Only Skins for 17" version="3.3.00" provider-name="[COLOR orange]TEAM SKINBASE[/COLOR]">
 	<extension point="xbmc.addon.repository" name="GUIDOS SKINBASE REPO">
 	<dir>
 		<info compressed="false">https://raw.githubusercontent.com/kaffepausse71/SKINBASE17/master/addons.xml</info>
@@ -301,7 +370,7 @@
 	</extension>
 </addon>
 
-<addon id="repository.skinbase.18" name="[COLOR orange]G[/COLOR]UIDO[COLOR orange]S[/COLOR] [COLOR orange]S[/COLOR]KINBAS[COLOR orange]E[/COLOR] Only Skins for 18" version="3.2.00" provider-name="[COLOR orange]GUIDO[/COLOR] | [COLOR skyblue]Kodiman[/COLOR] | [COLOR orange]HSK-DE[/COLOR]">
+<addon id="repository.skinbase.18" name="[COLOR orange]G[/COLOR]UIDO[COLOR orange]S[/COLOR] [COLOR orange]S[/COLOR]KINBAS[COLOR orange]E[/COLOR] Only Skins for 18" version="3.3.00" provider-name="[COLOR orange]TEAM SKINBASE[/COLOR]">
 	<extension point="xbmc.addon.repository" name="GUIDOS SKINBASE REPO">
 	<dir>
 		<info compressed="false">https://raw.githubusercontent.com/kaffepausse71/SKINBASE18/main/addons.xml</info>
@@ -331,7 +400,7 @@
 	</extension>
 </addon>
 
-<addon id="repository.skinbase.19" name="[COLOR orange]G[/COLOR]UIDO[COLOR orange]S[/COLOR] [COLOR orange]S[/COLOR]KINBAS[COLOR orange]E[/COLOR] Only Skins for 19" version="3.2.00" provider-name="[COLOR orange]GUIDO[/COLOR] | [COLOR skyblue]Kodiman[/COLOR] | [COLOR orange]HSK-DE[/COLOR]">
+<addon id="repository.skinbase.19" name="[COLOR orange]G[/COLOR]UIDO[COLOR orange]S[/COLOR] [COLOR orange]S[/COLOR]KINBAS[COLOR orange]E[/COLOR] Only Skins for 19 Matrix" version="3.3.00" provider-name="[COLOR orange]TEAM SKINBASE[/COLOR]">
 	<extension point="xbmc.addon.repository" name="GUIDOS SKINBASE REPO">
 	<dir>
 		<info compressed="false">https://raw.github.com/kaffepausse71/SKINBASE19/master/addons.xml</info>
@@ -356,7 +425,7 @@
 	</extension>
 </addon>
 
-<addon id="repository.skinbase.nexus" name="[COLOR orange]G[/COLOR]UIDO[COLOR orange]S[/COLOR] [COLOR orange]S[/COLOR]KINBAS[COLOR orange]E[/COLOR] Only Skins for [COLOR orange]Kodi 19+20[/COLOR] " version="3.0.00" provider-name="[COLOR orange]SKINBASE[/COLOR] | [COLOR skyblue]Kodiman[/COLOR] | [COLOR orange]HSK-DE[/COLOR]">
+<addon id="repository.skinbase.nexus" name="[COLOR orange]G[/COLOR]UIDO[COLOR orange]S[/COLOR] [COLOR orange]S[/COLOR]KINBAS[COLOR orange]E[/COLOR] Only Skins for [COLOR orange]Kodi NEXUS[/COLOR] " version="3.0.00" provider-name="[COLOR orange]TEAM SKINBASE[/COLOR]">
 	<extension point="xbmc.addon.repository" name="GUIDOS SKINBASE REPO">
 	<dir>
 		<info compressed="false">https://raw.github.com/kaffepausse71/SKINBASE.NEXUS/master/addons.xml</info>
@@ -381,22 +450,12 @@
 	</extension>
 </addon>
 
-<addon id="repository.skinbase.super" name="[COLOR orange]G[/COLOR]UIDO[COLOR orange]S[/COLOR] [COLOR orange]S[/COLOR]KINBAS[COLOR orange]E[/COLOR] Skins for [COLOR orange]ALL Kodi Versions[/COLOR] " version="3.0.00" provider-name="[COLOR orange]TEAM-SKINBASE[/COLOR]">
+<addon id="repository.skinbase.omega" name="[COLOR orange]G[/COLOR]UIDO[COLOR orange]S[/COLOR] [COLOR orange]S[/COLOR]KINBAS[COLOR orange]E[/COLOR] Only Skins for [COLOR orange]Kodi Omega[/COLOR] " version="3.0.00" provider-name="[COLOR orange]TEAM SKINBASE[/COLOR]">
 	<extension point="xbmc.addon.repository" name="GUIDOS SKINBASE REPO">
-	<dir>
-		<info compressed="false">https://raw.github.com/kaffepausse71/SKINBASE.NEXUS/master/addons.xml</info>
-		<checksum>https://raw.github.com/kaffepausse71/SKINBASE.NEXUS/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.github.com/kaffepausse71/SKINBASE.NEXUS/master/</datadir>
-	</dir>
-	<dir>
-		<info compressed="false">https://raw.githubusercontent.com/kaffepausse71/SKINBASE18/master/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/kaffepausse71/SKINBASE18/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.github.com/kaffepausse71/SKINBASE18/master/</datadir>
-	</dir>
-	<dir>
-		<info compressed="false">https://raw.githubusercontent.com/kaffepausse71/SKINBASE17/master/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/kaffepausse71/SKINBASE17/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://github.com/kaffepausse71/SKINBASE17/master/</datadir>
+	<dir minversion="20.9.0">
+		<info compressed="false">https://raw.github.com/kaffepausse71/SKINBASE.OMEGA/master/addons.xml</info>
+		<checksum>https://raw.github.com/kaffepausse71/SKINBASE.OMEGA/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.github.com/kaffepausse71/SKINBASE.OMEGA/master/</datadir>
 	</dir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
@@ -898,30 +957,6 @@ v.3.3.3
 			<icon>resources/icon.png</icon>
 		</assets>
 		<news>- code refactor</news>
-	</extension>
-</addon>
-
-<addon	id="script.module.defusedxml"
-		name="defusedxml"
-		version="0.6.0+matrix.1"
-		provider-name="Christian Heimes">
-	<requires>
-		<import addon="xbmc.python" version="3.0.0"/>
-	</requires>
-	<extension
-		point="xbmc.python.module"
-		library="lib" />
-	<extension
-		point="xbmc.addon.metadata">
-		<summary lang="en_GB">defusedxml -- defusing XML bombs and other exploits</summary>
-		<description lang="en_GB">Packed for KODI from https://github.com/tiran/defusedxml</description>
-		<platform>all</platform>
-		<license>PSF</license>
-		<website>https://pypi.org/project/defusedxml/</website>
-		<source>https://github.com/tiran/defusedxml</source>
-		<assets>
-			<icon>icon.png</icon>
-		</assets>
 	</extension>
 </addon>
 
@@ -1640,38 +1675,6 @@ matrix.3 fix  Send Runscript not XBMC.Runscript to Kodi (Kodi 19 change)</news>
 			<icon>resources/icon.png</icon>
 		</assets>
     </extension>
-</addon>
-
-<addon id="service.thoradia"
-       name="Thoradia Add-ons"
-       version="0.0.0.25"
-       provider-name="thoradia">
-  <requires>
-    <import addon="xbmc.python" version="3.0.0"/>
-
-  </requires>
-  <extension point="xbmc.service" library="default.py">
-    <provides></provides>
-  </extension>
-  <extension point="xbmc.addon.repository">
-    <datadir zip="true">TBD</datadir>
-    <info>TBD</info>
-    <checksum>TBD</checksum>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>Thoradia Add-ons: add-on repository</summary>
-    <description>
-Thoradia Add-ons (25) add-on repository.
-    </description>
-    <disclaimer>
-Keep it legal and carry on
-    </disclaimer>
-    <platform>all</platform>
-    <news>
-    </news>
-    <assets>
-    </assets>
-  </extension>
 </addon>
 
 <addon id="service.upnext" name="Up Next" version="1.1.8+matrix.1" provider-name="im85288">
@@ -4452,56 +4455,14 @@ Support for New Favourites Browser window
 	</extension>
 </addon>
 
-<addon id="skin.confluence-extended-super.skinbase" version="4.6.22" name="Confluence Extended Super (SKINBASE)" provider-name="SKINBASE,Jezz_X, Team Kodi, YLLOW_DRAGON, plood">
+<addon id="skin.confluence-extended-super.skinbase" version="4.6.40" name="Confluence Extended Super (SKINBASE)" provider-name="SKINBASE,Jezz_X, Team Kodi, YLLOW_DRAGON, plood">
 	<requires>
 		<import addon="xbmc.gui" version="5.15.0"/>
 		<import addon="script.image.resource.select" version="1.1.0"/>
 		<import addon="script.skinshortcuts" version="1.0.10"/>
 		<import addon="script.skin.helper.service" version="1.0.10"/>
 	</requires>
-	<extension point="xbmc.gui.skin" defaultthemename="Textures.xbt" debugging="false" effectslowdown="1.0">
-		<res width="1280" height="720" aspect="16:9" default="true" folder="720p" />
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en_GB">Confluence Extended Shortcuts skin by Jezz_X, Team XBMC, YLLOW_DRAGON, plood.</summary>
-		<summary lang="ru_RU">Обложка Confluence Extended Shortcuts. Авторы: Jezz_X, Team XBMC, YLLOW_DRAGON, plood.</summary>
-		<summary lang="uk_UA">Обкладинка Confluence Extended Shortcuts. Автори: Jezz_X, Team XBMC, YLLOW_DRAGON, plood.</summary>
-		<description lang="en_GB">Confluence Extended Shortcuts is the modernized skin for KODI. It is a combination of concepts from many popular skins, and attempts to embrace and integrate their good ideas into a skin that should be easy for first time Kodi users to understand and use.</description>
-		<description lang="ru_RU">Confluence Extended Shortcuts — это модернизированная обложка KODI. Она представляет собой сочетание концепций, взятых из многих популярных обложек, в попытке интегрировать их удачные идеи в обложке, которая была простой для использования и понимания новыми пользователями KODI.</description>
-		<description lang="uk_UA">Confluence Extended Shortcuts — це модернізована обкладинка Kodi. Концепції багатьох популярних обкладинок поєднано у спробі використати та інтегрувати їхні вдалі ідеї в обкладинці, що стала б зрозумілою та простою в застосуванні для нових користувачів Kodi.</description>
-		<platform>all</platform>
-		<license>GNU General Public License version 2</license>
-		<forum>http://forum.kodi.tv/forumdisplay.php?fid=125</forum>
-		<website></website>
-		<email>nkvoronov@gmail.com</email>
-		<source>https://github.com/nkvoronov/skin.confluence-extended.git</source>
-		<assets>
-			<icon>resources/icon.png</icon>
-			<fanart>resources/fanart.jpg</fanart>
-			<screenshot>resources/screenshot-01.jpg</screenshot>
-			<screenshot>resources/screenshot-02.jpg</screenshot>
-			<screenshot>resources/screenshot-03.jpg</screenshot>
-			<screenshot>resources/screenshot-04.jpg</screenshot>
-			<screenshot>resources/screenshot-05.jpg</screenshot>
-			<screenshot>resources/screenshot-06.jpg</screenshot>
-			<screenshot>resources/screenshot-07.jpg</screenshot>
-			<screenshot>resources/screenshot-08.jpg</screenshot>
-			<screenshot>resources/screenshot-09.jpg</screenshot>
-		</assets>
-		<news>Added support for new episode spoilers feature.</news>
-	</extension>
-</addon>
-
-<addon id="skin.confluence-extended-super.skinbase" version="4.6.42" name="Confluence Extended Super (SKINBASE)" provider-name="SKINBASE,Jezz_X, Team Kodi, YLLOW_DRAGON, plood">
-	<requires>
-		<import addon="xbmc.gui" version="5.15.0"/>
-		<import addon="script.image.resource.select" version="1.1.0"/>
-		<import addon="script.skinshortcuts" version="1.0.10"/>
-		<import addon="script.skin.helper.service" version="1.0.10"/>
-		<import addon="resource.images.languageflags.colour" version="0.0.1"/>
-		<import addon="resource.images.studios.coloured" version="0.0.1"/>
-	</requires>
-	<extension point="xbmc.gui.skin" defaultthemename="Textures.xbt" debugging="false" effectslowdown="1.0">
+	<extension point="xbmc.gui.skin" defaultthemename="Textures.xbt" debugging="true" effectslowdown="1.0">
 		<res width="1280" height="720" aspect="16:9" default="true" folder="720p" />
 	</extension>
 	<extension point="xbmc.addon.metadata">
