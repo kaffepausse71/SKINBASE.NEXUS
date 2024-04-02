@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.lattsrepo" name="[COLOR red]Latts'[/COLOR] [COLOR white]KODI[/COLOR] [COLOR blue]Repo[/COLOR]" version="4.0.1" provider-name="Latts">
+<addon id="repository.lattsrepo" name="[COLOR red]Latts'[/COLOR] [COLOR white]KODI[/COLOR] [COLOR blue]Repo[/COLOR]" version="4.0.2" provider-name="Latts">
 	<requires>
 		<import addon="xbmc.addon" version="12.0.0"/>
 	</requires>
@@ -29,6 +29,11 @@
 			<checksum>https://holybid.com/kodi/lattsrepo/master/nexus/addons.xml.md5</checksum>
 			<datadir zip="true">https://holybid.com/kodi/lattsrepo/master/nexus/</datadir>
 		</dir>
+		<dir minversion="20.90.801" maxversion="21.9.0">
+			<info compressed="false">https://holybid.com/kodi/lattsrepo/master/omega/addons.xml</info>
+			<checksum>https://holybid.com/kodi/lattsrepo/master/omega/addons.xml.md5</checksum>
+			<datadir zip="true">https://holybid.com/kodi/lattsrepo/master/omega/</datadir>
+		</dir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">Latts' Kodi Repo</summary>
@@ -39,9 +44,9 @@
 			<fanart>resources/fanart.jpg</fanart>
 			<icon>resources/icon.png</icon>
 		</assets>
-		<news>[B][COLOR=FF2CD13B]v4.0.1[/COLOR][/B] - Release date January 16, 2022[CR]
+		<news>[B][COLOR=FF2CD13B]v4.0.2[/COLOR][/B] - Release date December 3, 2023[CR]
 [B][COLOR=FFFFA500]ADDITIONS[/COLOR][/B]
-• Nexus repo added.
+• Omega repo added.
 		</news>
 	</extension>
 </addon>
