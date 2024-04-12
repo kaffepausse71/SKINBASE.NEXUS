@@ -4637,7 +4637,7 @@ Support for New Favourites Browser window
     </assets>
 	 <size>15279144</size>
     <news>
-	Works with Movie Artworks. Added Skin.ToggleDebug-button / Changed xml-location / Changed news-section in addon-info from fadelabel to textbox / Fixed appearance of scrollbars / Fixed LeftRating (0 &amp; 1) / Tweaked positioning of home-pushbuttons and rss / Updated Textures.xbt</news>
+	Works with Movie and TV-Series Artworks. Added Skin.ToggleDebug-button / Changed xml-location / Changed news-section in addon-info from fadelabel to textbox / Fixed appearance of scrollbars / Fixed LeftRating (0 &amp; 1) / Tweaked positioning of home-pushbuttons and rss / Updated Textures.xbt</news>
   </extension>
 
 </addon>
